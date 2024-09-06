@@ -1,0 +1,19 @@
+{
+  "name": "html5userapi-srv",
+  "engines": {
+    "node": "^20"
+  },
+  "dependencies": {
+    "@sap-cloud-sdk/http-client": "^3.17.0",
+    "@sap/xsenv": "^5.2.0",
+    "@sap/xssec": "^4",
+    "express": "^4.19.2",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "passport": "^0.7.0"
+  },
+  "scripts": {
+    "postinstall": "npm dedupe",
+    "start": "node --inspect express.js"
+  }
+}
