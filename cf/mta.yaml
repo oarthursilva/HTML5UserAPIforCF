@@ -97,7 +97,7 @@ modules:
   # ----------------------------------------------------------------------------------------
   - name: html5userapi-HTML5Module
     type: html5
-    path: HTML5Module
+    path: app/HTML5Module
     build-parameters:
       build-result: dist
       builder: custom
